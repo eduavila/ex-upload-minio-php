@@ -1,0 +1,9 @@
+version: '3.6'
+
+services:
+  php:
+    build: ./
+    volumes:
+      - ./:/var/www/html
+    ports:
+      - 80:80
